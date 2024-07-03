@@ -1,9 +1,7 @@
 """
-This is a from scratch implementation of the lime algorithm gor explainable ai applied on
-a lstm classifier trained on Arabic data. 
-The implementation is the approximately the same for all use case as lime is model agnostic
-although there might be some small differences between nlp settings and tabular data, such as in 
-the perturbation generation steps.
+a from-scratch implementation of the LIME algorithm for explainable AI, applied to an LSTM classifier trained on Arabic data. 
+While LIME is model-agnostic and can be adapted to various use cases, there may be minor differences in implementation, particularly
+in the perturbation generation steps, between NLP settings and tabular data.
 """
 
 import numpy as np
